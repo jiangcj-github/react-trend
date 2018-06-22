@@ -1,5 +1,4 @@
 import React from 'react';
-import './css/main.css';
 
 class ReactKline extends React.Component {
 
@@ -12,7 +11,7 @@ class ReactKline extends React.Component {
             stroke: "#ccc",
             strokeWidth: 1,
         };
-        Object.assign(this.state,this.prop);
+        Object.assign(this.state,this.props);
     }
 
     render() {
