@@ -1,6 +1,6 @@
 {
   "name": "react-simple-trend",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "[![NPM](https://nodei.co/npm/react-trend.png)](https://www.npmjs.com/package/react-trend)",
   "main": "npm_dist/index.js",
   "scripts": {

@@ -18,13 +18,13 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var ReactKline = function (_React$Component) {
-    _inherits(ReactKline, _React$Component);
+var ReactTrend = function (_React$Component) {
+    _inherits(ReactTrend, _React$Component);
 
-    function ReactKline(props) {
-        _classCallCheck(this, ReactKline);
+    function ReactTrend(props) {
+        _classCallCheck(this, ReactTrend);
 
-        var _this = _possibleConstructorReturn(this, (ReactKline.__proto__ || Object.getPrototypeOf(ReactKline)).call(this, props));
+        var _this = _possibleConstructorReturn(this, (ReactTrend.__proto__ || Object.getPrototypeOf(ReactTrend)).call(this, props));
 
         _this.state = {
             width: 200,
@@ -37,7 +37,7 @@ var ReactKline = function (_React$Component) {
         return _this;
     }
 
-    _createClass(ReactKline, [{
+    _createClass(ReactTrend, [{
         key: "render",
         value: function render() {
             var width = this.state.width;
@@ -71,7 +71,7 @@ var ReactKline = function (_React$Component) {
         }
     }]);
 
-    return ReactKline;
+    return ReactTrend;
 }(_react2.default.Component);
 
-exports.default = ReactKline;
+exports.default = ReactTrend;

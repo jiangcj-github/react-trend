@@ -1,6 +1,6 @@
 import React from 'react';
 
-class ReactKline extends React.Component {
+class ReactTrend extends React.Component {
 
     constructor(props) {
         super(props);
@@ -47,4 +47,4 @@ class ReactKline extends React.Component {
 
 }
 
-export default ReactKline;
+export default ReactTrend;
