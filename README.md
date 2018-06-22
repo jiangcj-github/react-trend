@@ -2,7 +2,7 @@
 
 [![NPM](https://nodei.co/npm/react-simple-trend.png)](https://www.npmjs.com/package/react-simple-trend)
 
-> 基于React的K线图组件
+> 基于React的趋势图组件
 
 ### 演示地址
 
