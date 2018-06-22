@@ -1,6 +1,6 @@
-# react-kline     [![npm version](https://badge.fury.io/js/react-trend.svg)](https://badge.fury.io/js/react-trend)
+# react-simple-trend     [![npm version](https://badge.fury.io/js/react-simple-trend.svg)](https://badge.fury.io/js/react-simple-trend)
 
-[![NPM](https://nodei.co/npm/react-trend.png)](https://www.npmjs.com/package/react-trend)
+[![NPM](https://nodei.co/npm/react-simple-trend.png)](https://www.npmjs.com/package/react-simple-trend)
 
 > 基于React的K线图组件
 
@@ -13,7 +13,7 @@
 安装
 
 ```bash
-$ npm install react-trend
+$ npm install react-simple-trend
 ```
 
 * 使用
@@ -21,7 +21,7 @@ $ npm install react-trend
 ```html
     import React from 'react';
     import ReactDOM from 'react-dom';
-    import ReactTrend from 'react-trend';
+    import ReactTrend from 'react-simple-trend';
 
     class App extends React.Component {
 

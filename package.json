@@ -1,7 +1,7 @@
 {
-  "name": "react-trend",
+  "name": "react-simple-trend",
   "version": "1.0.0",
-  "description": "",
+  "description": "[![NPM](https://nodei.co/npm/react-trend.png)](https://www.npmjs.com/package/react-trend)",
   "main": "npm_dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -12,7 +12,7 @@
     "publish-demo": "npm run build-demo && npm run deploy-demo"
   },
   "keywords": [],
-  "author": "",
+  "author": "lindakai2016",
   "license": "ISC",
   "dependencies": {
     "react": "^16.4.1",
@@ -38,5 +38,16 @@
     "webpack-cli": "^3.0.8",
     "webpack-dev-server": "^3.1.4",
     "webpack-node-externals": "^1.7.2"
-  }
+  },
+  "directories": {
+    "example": "example"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lindakai2016/react-trend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lindakai2016/react-trend/issues"
+  },
+  "homepage": "https://github.com/lindakai2016/react-trend#readme"
 }
