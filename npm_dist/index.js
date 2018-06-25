@@ -43,12 +43,17 @@ var ReactTrend = function (_React$Component) {
             var width = this.state.width;
             var height = this.state.height;
             var trends = this.state.trends;
+            if (trends.length < 2) return _react2.default.createElement(
+                "span",
+                null,
+                "trends\u957F\u5EA6\u4E0D\u5C0F\u4E8E2"
+            );
 
             var ratio = this.state.height / this.state.width;
             var viewHeight = 100 * ratio;
             var viewBox = "0 0 100 " + viewHeight;
 
-            var dx = Math.floor(100 / trends.length);
+            var dx = Math.floor(100 / (trends.length - 1));
             var max = trends[0];
             var min = trends[0];
             for (var i = 0; i < trends.length; i++) {
